@@ -1,0 +1,2 @@
+plugins/notifications: --embed-package anotherOne --shared-package '/!@backstage\//' 
+plugins/notifications-backend:
