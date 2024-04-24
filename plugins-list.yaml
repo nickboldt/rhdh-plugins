@@ -1,2 +1,29 @@
-plugins/notifications: --embed-package anotherOne --shared-package '/!@backstage\//' 
+plugins/notifications:
 plugins/notifications-backend:
+
+plugins/badges:
+plugins/badges-backend:
+plugins/bazaar:
+plugins/bazaar-backend:
+plugins/cicd-statistics:
+plugins/devtools:
+plugins/devtools-backend:
+plugins/entity-feedback-backend:
+plugins/entity-feedback:
+plugins/git-release-manager:
+plugins/linguist:
+plugins/linguist-backend:
+plugins/playlist:
+plugins/playlist-backend:
+plugins/shortcuts:
+plugins/stack-overflow:
+plugins/search-backend-module-stack-overflow-collator:
+plugins/todo:
+plugins/todo-backend:
+plugins/tech-insights-backend:
+plugins/tech-insights:
+plugins/tech-insights-backend-module-jsonfc: --shared-package '!/@backstage\/plugin-tech-insights/'
+plugins/vault:
+plugins/vault-backend:
+plugins/adr:
+plugins/adr-backend:
