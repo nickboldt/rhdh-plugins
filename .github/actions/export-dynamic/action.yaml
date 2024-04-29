@@ -13,7 +13,7 @@ inputs:
   janus-cli-version:
     description: Version of the janus-idp/cli package.
     required: false
-    default: ^1.7.10
+    default: ^1.8.1
 
   config-file-name:
     description: File name of the app-config files in which we expect to have the default configuration of a frontend plugin.
