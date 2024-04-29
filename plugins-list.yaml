@@ -78,9 +78,8 @@ plugins/events-backend-module-aws-sqs: # ==> Error: Unable to validate plugin en
 plugins/events-backend-module-azure: # ==> Error: Unable to validate plugin entry points: SyntaxError: Unexpected token 'export' (to be troubleshooted)
 plugins/events-backend-module-bitbucket-cloud: # ==> Error: Unable to validate plugin entry points: SyntaxError: Unexpected token 'export' (to be troubleshooted)
 plugins/events-backend-module-gerrit: # ==> Error: Unable to validate plugin entry points: SyntaxError: Unexpected token 'export' (to be troubleshooted)
-plugins/events-backend-module-github: # ==> Error: Unable to validate plugin entry points: SyntaxError: Unexpected token 'export' (to be troubleshooted)
-plugins/events-backend-module-gitlab: # ==> Error: Unable to validate plugin entry points: SyntaxError: Unexpected token 'export' (to be troubleshooted)
-plugins/events-backend-test-utils:
+#plugins/events-backend-module-github: # ==> the new backend system is not exported as default export (Error: Backend plugin is not valid for dynamic loading: it should either export a BackendFeature or BackendFeatureFactory as default export, or export a const dynamicPluginInstaller: BackendDynamicPluginInstaller field as dynamic loading entrypoint)
+#plugins/events-backend-module-gitlab: # ==> the new backend system is not exported as default export (Error: Backend plugin is not valid for dynamic loading: it should either export a BackendFeature or BackendFeatureFactory as default export, or export a const dynamicPluginInstaller: BackendDynamicPluginInstaller field as dynamic loading entrypoint)
 plugins/events-backend:
 plugins/example-todo-list-backend:
 plugins/example-todo-list:
